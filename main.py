@@ -4,7 +4,7 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 
 
 # Config
-device_serial_path = "/dev/tty.usbmodem101"
+device_serial_path = "/dev/ttyACM0"
 device_serial_rate = 9600
 server_address = ("", 80) # HOST, PORT
 
